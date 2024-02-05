@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: black;
+}
+
+body{
+   
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    height: 80px;
+}
+header nav .logo{
+    color: white;
+    font: size 30px; ;
+    font-weight: bolder;
+}
+header nav .logo span{
+    color: green;
+}
+header nav .links{
+    display: flex;
+}
+header nav .links li{
+    position: relative;
+    margin: 0 25px;
+    height: 80px;
+    line-height: 80px;
+}
+
+header nav .links li a{
+color: whitesmoke;
+font-size: 17px;
+}
+header nav .social-links a i{
+    color: green;
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+header nav .social-links a i :hover{
+    color: white;
+}
+
+div h1{
+    margin-top: 50px;
+    border-bottom: 5PX SOLID green;
+    display: inline-block;
+}
+
+
+
+div h2 span{
+    color: green;
+}
+div .about h2{
+    margin-top: 50px;
+    border-bottom: 5PX SOLID green;
+    display: inline-block;
+}
+
+div .Skills h2{
+    margin-top: 50px;
+    border-bottom: 5PX SOLID green;
+    display: inline-block;
+}
+
+div .mywork h2{
+    margin-top: 50px;
+    border-bottom: 5PX SOLID green;
+    display: inline-block;
+}
+div .Resume h2{
+    margin-top: 50px;
+    border-bottom: 5PX SOLID green;
+    display: inline-block;
+}
+div .Contact h2{
+    margin-top: 50px;
+    border-bottom: 5PX SOLID green;
+    display: inline-block;
+}
+.download-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the placeholder text */
+.download-button::placeholder {
+    color: green;
+    opacity: 1; 
+    margin-top: 10px;
+}
+
+
